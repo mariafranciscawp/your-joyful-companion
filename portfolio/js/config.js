@@ -1,0 +1,1 @@
+window.PORTFOLIO_CONFIG={whatsappNumber:"",whatsappMessage:"Olá, Maria! Vi seu portfólio e gostaria de conversar sobre a criação de um site para meu negócio.",email:""};
