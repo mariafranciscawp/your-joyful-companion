@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maria Francisca | Desenvolvedora Web &amp; Criadora de Sites</title>
+  <meta name="description" content="Portfólio de Maria Francisca, desenvolvedora web freelancer especializada em criação de sites, WordPress, landing pages e interfaces responsivas." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Maria Francisca" />
+  <link rel="canonical" href="./" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Maria Francisca" />
+  <meta property="og:title" content="Maria Francisca | Desenvolvedora Web &amp; Criadora de Sites" />
+  <meta property="og:description" content="Criação de sites modernos, responsivos e personalizados para empresas, profissionais e negócios." />
+  <meta property="og:url" content="./" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Maria Francisca | Desenvolvedora Web &amp; Criadora de Sites" />
+  <meta name="twitter:description" content="Criação de sites modernos, responsivos e personalizados para empresas, profissionais e negócios." />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Maria Francisca — início">
+        <span class="brand__mark" aria-hidden="true">MF</span>
+        <span>
+          <span class="brand__name">Maria Francisca</span>
+          <span class="brand__role">Desenvolvedora Web</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#inicio">Início</a></li>
+          <li><a class="nav__link" href="#sobre">Sobre</a></li>
+          <li><a class="nav__link" href="#servicos">Serviços</a></li>
+          <li><a class="nav__link" href="#projetos">Projetos</a></li>
+          <li><a class="nav__link" href="#processo">Processo</a></li>
+          <li><a class="nav__link" href="#planos">Planos</a></li>
+          <li><a class="nav__link" href="#faq">FAQ</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+          <li><a class="btn btn--primary nav__cta" href="#contato" style="display:none">Solicitar orçamento</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Alternar modo claro e escuro">
+          <i data-lucide="sun-moon" aria-hidden="true"></i>
+        </button>
+        <a class="btn btn--primary header__cta" href="#contato">Solicitar orçamento</a>
+        <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+          <i data-lucide="menu" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <span class="eyebrow">Desenvolvedora web freelancer</span>
+          <h1>Seu negócio merece um site <span class="accent">profissional</span> que passe confiança.</h1>
+          <p class="hero__lead">Crio sites modernos, responsivos e personalizados para empresas, profissionais e negócios que querem fortalecer sua presença na internet.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projetos">Ver projetos <i data-lucide="arrow-right" aria-hidden="true"></i></a>
+            <a class="btn btn--ghost" href="#orcamento">Solicitar orçamento</a>
+          </div>
+          <ul class="hero__facts">
+            <li><i data-lucide="check" aria-hidden="true"></i> Responsivo</li>
+            <li><i data-lucide="check" aria-hidden="true"></i> Design personalizado</li>
+            <li><i data-lucide="check" aria-hidden="true"></i> Código organizado</li>
+            <li><i data-lucide="check" aria-hidden="true"></i> SEO básico</li>
+          </ul>
+        </div>
+
+        <div class="mockup" data-reveal="scale">
+          <div class="mockup__screen">
+            <div class="mockup__bar" aria-hidden="true"><span></span><span></span><span></span></div>
+            <img src="images/projects/arqline.jpg" width="1280" height="800" alt="Exemplo de site desenvolvido, exibido em um monitor" />
+          </div>
+          <div class="mockup__base" aria-hidden="true"></div>
+          <span class="float-chip">HTML</span>
+          <span class="float-chip">CSS</span>
+          <span class="float-chip">JavaScript</span>
+          <span class="float-chip">WordPress</span>
+          <span class="float-chip">Figma</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BARRA DE CONFIANÇA ================= -->
+    <section class="trust" aria-label="Diferenciais rápidos">
+      <div class="container trust__inner">
+        <p class="trust__lead">Projetos pensados para funcionar em qualquer dispositivo.</p>
+        <ul class="trust__list">
+          <li><i data-lucide="smartphone" aria-hidden="true"></i> Sites responsivos</li>
+          <li><i data-lucide="palette" aria-hidden="true"></i> Design personalizado</li>
+          <li><i data-lucide="mouse-pointer-click" aria-hidden="true"></i> Experiência do usuário</li>
+          <li><i data-lucide="life-buoy" aria-hidden="true"></i> Suporte</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE ================= -->
+    <section class="section" id="sobre">
+      <div class="container about__grid">
+        <div class="about__photo" data-reveal="left">
+          <img src="images/profile/maria.jpg" width="816" height="816" loading="lazy" alt="Retrato de Maria Francisca, desenvolvedora web" />
+        </div>
+        <div data-reveal>
+          <span class="eyebrow">Sobre mim</span>
+          <h2>Transformo ideias em experiências digitais.</h2>
+          <p style="margin-top:16px">Sou Maria Francisca, desenvolvedora web freelancer focada na criação de sites modernos, responsivos e funcionais.</p>
+          <p style="margin-top:12px">Trabalho com desenvolvimento web, WordPress, Elementor, HTML, CSS, JavaScript e UI/UX.</p>
+          <p style="margin-top:12px">Meu objetivo é criar sites que sejam visualmente profissionais, fáceis de navegar e adaptados às necessidades de cada projeto.</p>
+          <ul class="about__stack">
+            <li class="chip">HTML &amp; CSS</li>
+            <li class="chip">JavaScript</li>
+            <li class="chip">WordPress</li>
+            <li class="chip">Elementor</li>
+            <li class="chip">Figma</li>
+            <li class="chip">UI/UX</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HABILIDADES ================= -->
+    <section class="section section--alt" id="habilidades">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Habilidades</span>
+          <h2>Ferramentas que uso no dia a dia.</h2>
+        </div>
+        <div class="grid grid-4">
+          <div class="card skills__group" data-reveal data-delay="1">
+            <h3>Desenvolvimento</h3>
+            <div class="skill"><div class="skill__top"><span>HTML5</span><span>Avançado</span></div><div class="skill__bar"><div class="skill__fill" data-level="92"></div></div></div>
+            <div class="skill"><div class="skill__top"><span>CSS3</span><span>Avançado</span></div><div class="skill__bar"><div class="skill__fill" data-level="90"></div></div></div>
+            <div class="skill"><div class="skill__top"><span>JavaScript</span><span>Intermediário</span></div><div class="skill__bar"><div class="skill__fill" data-level="75"></div></div></div>
+          </div>
+          <div class="card skills__group" data-reveal data-delay="2">
+            <h3>CMS</h3>
+            <div class="skill"><div class="skill__top"><span>WordPress</span><span>Avançado</span></div><div class="skill__bar"><div class="skill__fill" data-level="88"></div></div></div>
+            <div class="skill"><div class="skill__top"><span>Elementor</span><span>Avançado</span></div><div class="skill__bar"><div class="skill__fill" data-level="85"></div></div></div>
+          </div>
+          <div class="card skills__group" data-reveal data-delay="3">
+            <h3>Design</h3>
+            <div class="skill"><div class="skill__top"><span>Figma</span><span>Intermediário</span></div><div class="skill__bar"><div class="skill__fill" data-level="78"></div></div></div>
+            <div class="skill"><div class="skill__top"><span>UI/UX</span><span>Intermediário</span></div><div class="skill__bar"><div class="skill__fill" data-level="76"></div></div></div>
+            <div class="skill"><div class="skill__top"><span>Responsive Design</span><span>Avançado</span></div><div class="skill__bar"><div class="skill__fill" data-level="90"></div></div></div>
+          </div>
+          <div class="card skills__group" data-reveal data-delay="4">
+            <h3>Extras</h3>
+            <div class="skill"><div class="skill__top"><span>SEO básico</span><span>Intermediário</span></div><div class="skill__bar"><div class="skill__fill" data-level="70"></div></div></div>
+            <div class="skill"><div class="skill__top"><span>Git / GitHub</span><span>Intermediário</span></div><div class="skill__bar"><div class="skill__fill" data-level="72"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVIÇOS ================= -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Serviços</span>
+          <h2>Como posso ajudar seu negócio?</h2>
+        </div>
+        <div class="grid grid-3" id="servicesGrid"><!-- preenchido por js/script.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFÓLIO ================= -->
+    <section class="section section--alt" id="projetos">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Portfólio</span>
+          <h2>Projetos selecionados</h2>
+          <p style="margin-top:12px">Alguns projetos que representam diferentes tipos de soluções digitais.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtrar projetos por categoria">
+          <button class="filter is-active" type="button" data-filter="all">Todos</button>
+          <button class="filter" type="button" data-filter="institucional">Institucional</button>
+          <button class="filter" type="button" data-filter="landing">Landing Page</button>
+          <button class="filter" type="button" data-filter="wordpress">WordPress</button>
+          <button class="filter" type="button" data-filter="ecommerce">E-commerce</button>
+          <button class="filter" type="button" data-filter="uiux">UI/UX</button>
+        </div>
+
+        <div class="grid grid-3" id="projectsGrid" aria-live="polite"><!-- preenchido por js/script.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= PROJETO EM DESTAQUE ================= -->
+    <section class="section" id="destaque">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Projeto em destaque</span>
+          <h2>Um caso do início ao fim.</h2>
+        </div>
+        <article class="card featured" id="featuredProject" data-reveal><!-- preenchido por js/script.js --></article>
+      </div>
+    </section>
+
+    <!-- ================= PROCESSO ================= -->
+    <section class="section section--alt" id="processo">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Processo</span>
+          <h2>Do primeiro contato ao site publicado.</h2>
+        </div>
+        <div class="timeline" id="processTimeline"><!-- preenchido por js/script.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= ORÇAMENTO INTERATIVO ================= -->
+    <section class="section" id="orcamento">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Estimativa</span>
+          <h2>Quanto custa seu projeto?</h2>
+          <p style="margin-top:12px">Responda três perguntas rápidas e receba uma estimativa inicial.</p>
+        </div>
+
+        <form class="calc" id="calcForm" novalidate>
+          <div class="card">
+            <fieldset class="field">
+              <legend>Qual tipo de site?</legend>
+              <div class="options">
+                <label class="option"><input type="radio" name="type" value="landing" checked /> Landing Page</label>
+                <label class="option"><input type="radio" name="type" value="institucional" /> Site Institucional</label>
+                <label class="option"><input type="radio" name="type" value="wordpress" /> WordPress</label>
+                <label class="option"><input type="radio" name="type" value="ecommerce" /> E-commerce</label>
+                <label class="option"><input type="radio" name="type" value="personalizado" /> Site personalizado</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="field">
+              <legend>Quantidade de páginas</legend>
+              <div class="options">
+                <label class="option"><input type="radio" name="pages" value="1" checked /> 1</label>
+                <label class="option"><input type="radio" name="pages" value="2-5" /> 2-5</label>
+                <label class="option"><input type="radio" name="pages" value="6-10" /> 6-10</label>
+                <label class="option"><input type="radio" name="pages" value="10+" /> 10+</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="field" style="margin-bottom:0">
+              <legend>Precisa de:</legend>
+              <div class="options">
+                <label class="option"><input type="checkbox" name="features" value="whatsapp" /> WhatsApp</label>
+                <label class="option"><input type="checkbox" name="features" value="formulario" /> Formulário</label>
+                <label class="option"><input type="checkbox" name="features" value="galeria" /> Galeria</label>
+                <label class="option"><input type="checkbox" name="features" value="blog" /> Blog</label>
+                <label class="option"><input type="checkbox" name="features" value="animacoes" /> Animações</label>
+                <label class="option"><input type="checkbox" name="features" value="seo" /> SEO básico</label>
+                <label class="option"><input type="checkbox" name="features" value="redes" /> Integração com redes sociais</label>
+              </div>
+            </fieldset>
+          </div>
+
+          <aside class="card calc__result" aria-live="polite">
+            <span class="tag">Estimativa inicial</span>
+            <p class="calc__price" id="calcPrice">R$ 500</p>
+            <p class="note">O valor final pode variar de acordo com a complexidade do projeto. Esta não é uma proposta definitiva.</p>
+            <a class="btn btn--primary btn--block" id="calcWhatsapp" href="#contato" style="margin-top:18px">
+              <i data-lucide="message-circle" aria-hidden="true"></i> Solicitar orçamento pelo WhatsApp
+            </a>
+          </aside>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= PLANOS ================= -->
+    <section class="section section--alt" id="planos">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Planos</span>
+          <h2>Pacotes de referência.</h2>
+        </div>
+        <div class="grid grid-3" id="plansGrid"><!-- preenchido por js/script.js --></div>
+        <p class="note" style="margin-top:18px">Os valores apresentados são referências e podem variar de acordo com o projeto.</p>
+      </div>
+    </section>
+
+    <!-- ================= DIFERENCIAIS ================= -->
+    <section class="section" id="diferenciais">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Diferenciais</span>
+          <h2>Mais do que um site.</h2>
+        </div>
+        <div class="grid grid-3" id="diffGrid"><!-- preenchido por js/script.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= DEPOIMENTOS ================= -->
+    <section class="section section--alt" id="depoimentos">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Depoimentos</span>
+          <h2>O que os clientes dizem</h2>
+          <p style="margin-top:12px">Os blocos abaixo são exemplos de estrutura. Substitua pelos depoimentos reais dos seus clientes antes de publicar.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card" data-reveal data-delay="1">
+            <span class="testimonial__placeholder">Exemplo — substituir</span>
+            <p>"Espaço reservado para o depoimento real do cliente sobre o projeto entregue."</p>
+            <div class="testimonial__author"><span class="testimonial__avatar" aria-hidden="true">?</span><span><strong>Nome do cliente</strong><br /><small>Empresa / segmento</small></span></div>
+          </article>
+          <article class="card" data-reveal data-delay="2">
+            <span class="testimonial__placeholder">Exemplo — substituir</span>
+            <p>"Espaço reservado para o depoimento real do cliente sobre o processo de trabalho."</p>
+            <div class="testimonial__author"><span class="testimonial__avatar" aria-hidden="true">?</span><span><strong>Nome do cliente</strong><br /><small>Empresa / segmento</small></span></div>
+          </article>
+          <article class="card" data-reveal data-delay="3">
+            <span class="testimonial__placeholder">Exemplo — substituir</span>
+            <p>"Espaço reservado para o depoimento real do cliente sobre o resultado do site."</p>
+            <div class="testimonial__author"><span class="testimonial__avatar" aria-hidden="true">?</span><span><strong>Nome do cliente</strong><br /><small>Empresa / segmento</small></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">FAQ</span>
+          <h2>Perguntas frequentes</h2>
+        </div>
+        <div class="faq" id="faqList"><!-- preenchido por js/script.js --></div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="section">
+      <div class="container">
+        <div class="cta" data-reveal="scale">
+          <h2>Pronto para colocar seu projeto no ar?</h2>
+          <p style="margin:14px auto 0; max-width:56ch">Conte um pouco sobre sua ideia e vamos conversar sobre a melhor solução para seu negócio.</p>
+          <div class="cta__actions">
+            <a class="btn btn--primary" href="#contato">Solicitar orçamento</a>
+            <a class="btn btn--ghost" data-wa href="#contato"><i data-lucide="message-circle" aria-hidden="true"></i> Falar pelo WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTATO ================= -->
+    <section class="section section--alt" id="contato">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Contato</span>
+          <h2>Vamos conversar sobre seu site.</h2>
+        </div>
+
+        <div class="contact__grid">
+          <form class="card" id="contactForm" novalidate data-reveal>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="cName">Nome</label>
+                <input id="cName" name="name" type="text" required autocomplete="name" placeholder="Seu nome" />
+              </div>
+              <div class="input-group">
+                <label for="cEmail">E-mail</label>
+                <input id="cEmail" name="email" type="email" required autocomplete="email" placeholder="voce@email.com" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-group">
+                <label for="cPhone">WhatsApp</label>
+                <input id="cPhone" name="phone" type="tel" autocomplete="tel" placeholder="(00) 00000-0000" />
+              </div>
+              <div class="input-group">
+                <label for="cType">Tipo de projeto</label>
+                <select id="cType" name="projectType">
+                  <option>Landing Page</option>
+                  <option>Site Institucional</option>
+                  <option>WordPress</option>
+                  <option>E-commerce</option>
+                  <option>Redesign</option>
+                  <option>Outro</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="cBudget">Orçamento aproximado</label>
+              <select id="cBudget" name="budget">
+                <option>Até R$ 1.000</option>
+                <option>R$ 1.000 – R$ 2.000</option>
+                <option>R$ 2.000 – R$ 4.000</option>
+                <option>Acima de R$ 4.000</option>
+                <option>Ainda não sei</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="cMessage">Mensagem</label>
+              <textarea id="cMessage" name="message" rows="4" required placeholder="Conte sobre seu projeto"></textarea>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">Enviar solicitação</button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+
+          <aside class="card" data-reveal data-delay="2">
+            <h3>Canais diretos</h3>
+            <ul class="contact__list" id="contactList" style="margin-top:16px"><!-- preenchido por js/script.js --></ul>
+            <p class="note" style="margin-top:20px">Atendimento remoto para todo o Brasil. Respondo normalmente em até 24 horas úteis.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">MF</span>
+        <span><span class="brand__name">Maria Francisca</span><span class="brand__role">Desenvolvedora Web &amp; Criadora de Sites</span></span>
+      </div>
+      <div class="footer__social" id="footerSocial"></div>
+      <small>&copy; <span id="year"></span> Maria Francisca. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <!-- ================= MODAL DE PROJETO ================= -->
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__overlay" data-close-modal></div>
+    <div class="modal__dialog">
+      <button class="icon-btn modal__close" type="button" data-close-modal aria-label="Fechar">
+        <i data-lucide="x" aria-hidden="true"></i>
+      </button>
+      <img class="modal__img" id="modalImage" src="" alt="" width="1280" height="720" />
+      <div class="modal__body">
+        <span class="tag" id="modalCategory"></span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div>
+          <h4 style="font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)">Objetivo</h4>
+          <p id="modalObjective"></p>
+        </div>
+        <div class="project__techs" id="modalTechs"></div>
+        <div class="modal__actions">
+          <a class="btn btn--primary" id="modalVisit" href="#" target="_blank" rel="noopener">Visitar projeto</a>
+          <a class="btn btn--ghost" id="modalSimilar" href="#contato">Solicitar um projeto parecido</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FLUTUANTES ================= -->
+  <a class="wa-float" id="waFloat" href="#contato" aria-label="Falar pelo WhatsApp">
+    <i data-lucide="message-circle" aria-hidden="true"></i>
+  </a>
+  <button class="to-top" id="toTop" type="button" aria-label="Voltar ao topo">
+    <i data-lucide="arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js" defer></script>
+  <script src="js/config.js" defer></script>
+  <script src="js/projects.js" defer></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

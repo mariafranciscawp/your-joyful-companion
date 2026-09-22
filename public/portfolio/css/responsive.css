@@ -1,0 +1,67 @@
+/* =========================================================
+   responsive.css — 1440 / 1280 / 1024 / 768 / 480 / 390 / 360
+   Regra geral: nunca permitir overflow horizontal.
+   ========================================================= */
+
+@media (max-width: 1280px) {
+  :root { --container: 1080px; }
+  .float-chip:nth-child(2) { left: -10px; }
+  .float-chip:nth-child(4) { left: -14px; }
+  .float-chip:nth-child(3) { right: -8px; }
+}
+
+@media (max-width: 1024px) {
+  .hero__grid,
+  .about__grid,
+  .featured,
+  .calc,
+  .contact__grid { grid-template-columns: 1fr; }
+  .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .featured__media img { max-height: 340px; }
+  .calc__result { position: static; }
+  .nav__link { padding: 8px 9px; font-size: .84rem; }
+  .brand__role { display: none; }
+}
+
+@media (max-width: 860px) {
+  .nav-toggle { display: grid; }
+  .nav {
+    position: fixed; inset: 0 0 auto 0; top: var(--header-h);
+    background: var(--bg-secondary); border-bottom: 1px solid var(--border);
+    padding: 14px 24px 22px; display: none; box-shadow: var(--shadow);
+  }
+  .nav.is-open { display: block; }
+  .nav__list { flex-direction: column; align-items: stretch; gap: 2px; }
+  .nav__link { display: block; padding: 12px 14px; font-size: .95rem; }
+  .header__cta { display: none; }
+  .nav__cta { display: inline-flex !important; margin-top: 12px; width: 100%; }
+}
+
+@media (max-width: 768px) {
+  :root { --header-h: 70px; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .trust__list { margin-left: 0; }
+  .hero { padding-top: calc(var(--header-h) + 34px); }
+  .float-chip { display: none; }
+  .float-chip:nth-child(2), .float-chip:nth-child(3) { display: inline-block; }
+  .section { padding: 60px 0; }
+}
+
+@media (max-width: 480px) {
+  .container { padding: 0 18px; }
+  .card { padding: 20px; }
+  .btn { width: 100%; }
+  .hero__actions .btn, .cta__actions .btn, .modal__actions .btn { width: 100%; }
+  .filters { gap: 7px; }
+  .filter { padding: 8px 13px; font-size: .8rem; }
+  .modal__body { padding: 20px; }
+  .footer__inner { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 390px) {
+  h1 { font-size: 1.85rem; }
+  .brand__name { font-size: .9rem; }
+  .float-chip { display: none; }
+}
